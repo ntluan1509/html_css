@@ -1,0 +1,19 @@
+p {
+    border: 1px solid;
+    width: 100%;
+    display: inline-block;
+
+}
+
+@media screen and (min-width: 600px) {
+    p {
+        width: 49%;
+    }
+    
+}
+
+@media screen and (min-width: 1024px) {
+    p {
+        width: 32%;
+    }
+}
